@@ -12,12 +12,12 @@
 <button id="S">Submit</button>
 <form>
 <script>
-    const CoDatabase= firebase.database().ref("Contact");
-const CSubmit=document.getElementById("S");
-const Cname=document.getElementById("name");
-const Cgrade=document.getElementById("grade");
-const Csubject=document.getElementById("subject");
-const Ccontent=document.getElementById("Message");
+    var CoDatabase= firebase.database().ref("Contact");
+var CSubmit=document.getElementById("S");
+var Cname=document.getElementById("name");
+var Cgrade=document.getElementById("grade");
+var Csubject=document.getElementById("subject");
+var Ccontent=document.getElementById("Message");
 CSubmit.addEventListener("click" ,SubmitMessage);
 
 function SubmitMessage(event){

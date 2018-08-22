@@ -1,4 +1,4 @@
-<p style="text-align:center;color:white;">Do you have questions about our school or just highschool in general? Do you have a problem that you can't figure out, no matter how hard you try? Ask us and we'll see if we can't help you out!</p>
+<h3 style="text-align:center;color:white;">Do you have questions about our school or just highschool in general? Do you have a problem that you can't figure out, no matter how hard you try? Ask us and we'll see if we can't help you out!</h3>
 <form>
 <input id="name" placeholder="Name" require>
 <select id="grade">

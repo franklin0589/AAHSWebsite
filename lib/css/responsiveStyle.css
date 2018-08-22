@@ -1,0 +1,43 @@
+@media only screen and (max-width: 700px) {
+    body {
+       
+    }
+    #headerTitle>img{
+        display: none;
+       
+    }
+    #navbar{
+        flex-wrap: wrap;
+    }
+    #navbar>a{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    body {
+       
+    }
+    #headerTitle>img{
+        display: none;
+       
+    }
+    #headerTitle>h1{
+        display: none;
+       
+    }
+    img{
+       
+        height: 100px;
+    }
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: none;
+    }
+    #index_container{
+        height:60vh;
+    }
+    #navbar>a{
+        margin-bottom: 5px;
+    }
+}

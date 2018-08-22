@@ -1,7 +1,7 @@
 
 <form>
     <input id="email" placeholder="email">
-    <input id="password" placeholder="password">
+    <input id="password" placeholder="password" type="password">
     <input type="submit" id="login">
 </form>
 

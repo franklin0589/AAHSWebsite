@@ -57,6 +57,7 @@ html{
 }
 
 #main-container{
+    
     background-color:goldenrod;
     width:90%;
     padding:10px;
@@ -81,7 +82,13 @@ td{
     align-items: center;
  
 }
+
+#index_container> img{
+   width:70%
+ 
+}
 #event_table{
+    
     margin-top:20px;
 }
 /* Contact Page */

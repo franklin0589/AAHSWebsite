@@ -2,9 +2,31 @@
     body {
        
     }
+    .container{
+        width: 100%;
+    }
+    #main-container{
+        font-size: 3vw;
+    }
     #headerTitle>img{
         display: none;
        
+    }
+    #logolink{
+        display: none;
+       
+    }
+    .NTitle{
+        font-size: 4vw;
+    }
+    .Nimg{
+        width: 60%;
+    }
+    .VTitle{
+        font-size: 4vw;
+    }
+    .Vimg{
+        width: 60%;
     }
     #navbar{
         flex-wrap: wrap;
@@ -15,10 +37,17 @@
 }
 @media only screen and (max-width: 320px) {
     body {
-       
+       font-size:5vw;
+
     }
     #headerTitle>img{
         display: none;
+       
+    }
+    
+    
+    #logolink{
+        display:block;
        
     }
     #headerTitle>h1{
@@ -33,9 +62,6 @@
         flex-direction: column;
         align-items: center;
         flex-wrap: none;
-    }
-    #index_container{
-        height:60vh;
     }
     #navbar>a{
         margin-bottom: 5px;

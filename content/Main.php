@@ -22,7 +22,6 @@
     MTitle.className="MTitle";
     MTitle.innerHTML=object.title;
     const Mimg=document.createElement("img");
-    Mimg.style.width="300px";
     Mimg.className="Mimg";
     Mimg.src=object.imgUrl;
     const MContent=document.createElement("div");
